@@ -2,33 +2,35 @@
 //https://www.c-sharpcorner.com/article/steps-to-set-up-a-virtual-environment-for-python-development/
 //
 
-C:\Users\ykk>cd C:\Users\ykk\Desktop\ykk-projects\201911_acilab
-
-C:\Users\ykk\Desktop\ykk-projects\201911_acilab>virtualenv venv -p C:\Python37\python3.exe
+//////////////////////////////////////////////
+C:\Python37_venv>
+C:\Python37_venv>virtualenv acilab -p C:\Python37\python3.exe
 Running virtualenv with interpreter C:\Python37\python3.exe
 Already using interpreter C:\Python37\python3.exe
 Using base prefix 'C:\\Python37'
-New python executable in C:\Users\ykk\Desktop\ykk-projects\201911_acilab\venv\Scripts\python3.exe
-Also creating executable in C:\Users\ykk\Desktop\ykk-projects\201911_acilab\venv\Scripts\python.exe
+New python executable in C:\Python37_venv\acilab\Scripts\python3.exe
+Also creating executable in C:\Python37_venv\acilab\Scripts\python.exe
 Installing setuptools, pip, wheel...
 done.
 
-C:\Users\ykk\Desktop\ykk-projects\201911_acilab>.\venv\Scripts\activate
+//////////////////////////////////////////////
+C:\Python37_venv>.\acilab\Scripts\activate
 
-(venv) C:\Users\ykk\Desktop\ykk-projects\201911_acilab>
-(venv) C:\Users\ykk\Desktop\ykk-projects\201911_acilab>python --version
-Python 3.7.4
+(acilab) C:\Python37_venv>
 
-(venv) C:\Users\ykk\Desktop\ykk-projects\201911_acilab>pip list
+//////////////////////////////////////////////
+(acilab) C:\Python37_venv>python --version
+Python 3.7.3
+
+
+//////////////////////////////////////////////
+(acilab) C:\Python37_venv>pip list
 Package    Version
 ---------- -------
 pip        19.3.1
 setuptools 41.6.0
 wheel      0.33.6
 
-(venv) C:\Users\ykk\Desktop\ykk-projects\201911_acilab>
-(venv) C:\Users\ykk\Desktop\ykk-projects\201911_acilab>
-(venv) C:\Users\ykk\Desktop\ykk-projects\201911_acilab>deactivate
-C:\Users\ykk\Desktop\ykk-projects\201911_acilab>
-C:\Users\ykk\Desktop\ykk-projects\201911_acilab>
-C:\Users\ykk\Desktop\ykk-projects\201911_acilab>
+//////////////////////////////////////////////
+(acilab) C:\Python37_venv>deactivate
+C:\Python37_venv>
